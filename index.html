@@ -39,12 +39,12 @@
               //alert(feels);
 
               if(feels == "fluffy" && likes == "petted" && eats == "carrots") {
-                        pet = "rabbit"
+                        pet = "rabbit";
 
 
               }
               if(feels == "scaly" && likes == "ridden" && eats == "pets") {
-                        pet = "velociraptor"
+                        pet = "velociraptor";
 
 
               }
@@ -59,7 +59,7 @@
 
                 $("#output").html(output);
               // load pic of pet
-                $('#pet').load(`includes/content.html #${pet}  `);
+                $('#pet').load(`includes/content.html #${pet}`);
                 //$('#pet').load('includes/content.html #cute-kitten');
 
 
@@ -94,7 +94,7 @@
    </div>
   
    <input type="submit" value="submit it!" />
-   <div id="pit">Pic of pet goes here!</div>
+   <div id="pet">Pic of pet goes here!</div>
    <div id="output">Output goes here!</div>
 </form>
 </body>
